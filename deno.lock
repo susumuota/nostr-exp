@@ -3,7 +3,8 @@
   "remote": {},
   "npm": {
     "specifiers": {
-      "nostr-tools@1.2.1": "nostr-tools@1.2.1"
+      "nostr-tools@1.2.1": "nostr-tools@1.2.1",
+      "nostr-tools@1.2.3": "nostr-tools@1.2.3"
     },
     "packages": {
       "@noble/hashes@0.5.9": {
@@ -39,6 +40,16 @@
       },
       "nostr-tools@1.2.1": {
         "integrity": "sha512-SL0sst29mrQ7oUPGQn+NMH4yuTe69a8S4bliNpYB2IG0fDl3Cx+xSLnuCTb4nZiNalatYsA5l+751wQiDGA3+A==",
+        "dependencies": {
+          "@noble/hashes": "@noble/hashes@0.5.9",
+          "@noble/secp256k1": "@noble/secp256k1@1.7.1",
+          "@scure/base": "@scure/base@1.1.1",
+          "@scure/bip32": "@scure/bip32@1.1.5",
+          "@scure/bip39": "@scure/bip39@1.1.1"
+        }
+      },
+      "nostr-tools@1.2.3": {
+        "integrity": "sha512-DHWEdpdx6rLg2fG6N832ZzWLH+d62SfZK0lkiyKcgYzD74j6OGfXW9ZSDIxVg7QCVxL02V8XGKTXP7nujADviw==",
         "dependencies": {
           "@noble/hashes": "@noble/hashes@0.5.9",
           "@noble/secp256k1": "@noble/secp256k1@1.7.1",

@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "keygen": "deno run keygen.ts"
+  }
+}

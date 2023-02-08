@@ -7,5 +7,5 @@ fi
 
 for i in `seq $2`
 do
-  deno task keygen $1 &
+  deno run keygen.ts $1 &
 done

@@ -1,5 +1,11 @@
 {
   "tasks": {
     "keygen": "deno run keygen.ts"
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 100,
+      "singleQuote": true
+    }
   }
 }
